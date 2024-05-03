@@ -41,7 +41,7 @@ async function movie(url){
    
     button.addEventListener("click", act);
     function act() {
-      const mov = `http://www.omdbapi.com/?apikey=${apiKey}&s=${input.value}`;
+      const mov = `https://www.omdbapi.com/?apikey=${apiKey}&s=${input.value}`;
       
       console.log(mov);
       movie(mov);
