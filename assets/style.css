@@ -1,0 +1,33 @@
+body{
+    background-image: url(./image/jason-dent-SnXIF8_2oPw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+h1{
+    color: white;
+}
+
+.input-button{
+    display: flex;
+
+}
+
+.search{
+    width: 150px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.input{
+    width: 200px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.cards{
+    margin-top: 40px;
+    gap: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
